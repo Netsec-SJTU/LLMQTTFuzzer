@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "response_topic",
+        "next_message": "SUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The response_topic in PUBLISH specifies the topic where the subscriber should listen for responses, requiring the SUBSCRIBE message's topic_filter to match this value to receive the intended messages."
+    }
+]

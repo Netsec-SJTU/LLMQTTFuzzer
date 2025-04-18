@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "dup",
+        "next_message": "PUBLISH",
+        "next_message_field": "packet_identifier",
+        "relationship": "The 'dup' flag in the current PUBLISH indicates a retransmission. If the next PUBLISH is a retransmission of the same message, it must reuse the same 'packet_identifier' to ensure message deduplication and proper handling of QoS flows."
+    }
+]

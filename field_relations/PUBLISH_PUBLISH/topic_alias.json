@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "topic_alias",
+        "next_message": "PUBLISH",
+        "next_message_field": "topic_name",
+        "relationship": "The topic_alias in the current PUBLISH message defines a numeric alias for the topic_name. If the next PUBLISH message uses the same topic_name, it may omit the topic_name field (explicit null assignment, field remains in schema but empty) and instead set the topic_alias to the same value, reducing overhead by reusing the previously established alias mapping."
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "DISCONNECT": {
+    "fixed_header": {
+      "packet_type": "disconnect",
+      "flags": "0"
+    },
+    "variable_header": {
+
+    }
+  }
+}

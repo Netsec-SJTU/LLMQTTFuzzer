@@ -1,0 +1,10 @@
+{
+  "CONNACK": {
+    "fixed_header": {
+      "packet_type": "connack",
+      "flags": "0"
+    },
+    "variable_header": {
+    }
+  }
+}

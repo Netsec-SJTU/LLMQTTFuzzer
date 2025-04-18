@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "response_topic",
+        "next_message": "UNSUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The response_topic specified in CONNECT may be used as the topic_filter in UNSUBSCRIBE if the client wishes to stop receiving messages on the previously designated response topic. The value of response_topic directly determines the topic_filter to unsubscribe from."
+    }
+]

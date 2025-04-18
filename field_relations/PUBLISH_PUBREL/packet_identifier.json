@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "packet_identifier",
+        "next_message": "PUBREL",
+        "next_message_field": "packet_identifier",
+        "relationship": "The packet_identifier in PUBLISH must match the packet_identifier in PUBREL to ensure the QoS 2 protocol handshake correctly associates the messages. The value is directly copied without modification."
+    }
+]

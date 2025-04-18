@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "topic_name",
+        "next_message": "UNSUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The topic_name in PUBLISH may correspond to the topic_filter in UNSUBSCRIBE if the client unsubscribes from the topic it previously published to. The topic_filter in UNSUBSCRIBE must match the topic_name from PUBLISH to ensure unsubscription from the correct topic."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "SUBSCRIBE",
+        "current_message_field": "subscription_identifier",
+        "next_message": "PUBLISH",
+        "next_message_field": "subscription_identifier",
+        "relationship": "The subscription_identifier in SUBSCRIBE is included by the broker in the PUBLISH message to indicate which subscription(s) caused the message to be delivered. The value is directly copied from the SUBSCRIBE message to the PUBLISH message."
+    }
+]

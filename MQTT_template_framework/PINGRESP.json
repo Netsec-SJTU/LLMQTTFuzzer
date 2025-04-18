@@ -1,0 +1,8 @@
+{
+  "PINGRESP": {
+    "fixed_header": {
+      "packet_type": "pingresp",
+      "flags": "0"
+    }
+  }
+}

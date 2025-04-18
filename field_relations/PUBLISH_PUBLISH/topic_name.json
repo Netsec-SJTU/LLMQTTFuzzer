@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "topic_name",
+        "next_message": "PUBLISH",
+        "next_message_field": "response_topic",
+        "relationship": "The topic_name in the current PUBLISH might influence the response_topic in the next PUBLISH if the next message is a response to the original request. The response_topic can be set to the topic_name from the current message to direct the response to the same topic."
+    }
+]

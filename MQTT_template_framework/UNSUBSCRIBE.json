@@ -1,0 +1,14 @@
+{
+  "UNSUBSCRIBE": {
+    "fixed_header": {
+      "message_type": "unsubscribe",
+      "flags": "2"
+    },
+    "variable_header": {
+
+    },
+    "payload": {
+
+    }
+  }
+}

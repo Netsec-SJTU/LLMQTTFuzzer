@@ -1,0 +1,16 @@
+[
+    {
+        "current_message": "SUBSCRIBE",
+        "current_message_field": "subscription_options",
+        "next_message": "PUBLISH",
+        "next_message_field": "qos",
+        "relationship": "The QoS level in the subscription_options of SUBSCRIBE determines the maximum QoS at which the broker can deliver the PUBLISH message. The effective QoS is the minimum of the PUBLISH message's QoS and the subscription's QoS, potentially modifying the delivered QoS value."
+    },
+    {
+        "current_message": "SUBSCRIBE",
+        "current_message_field": "subscription_options",
+        "next_message": "PUBLISH",
+        "next_message_field": "retain",
+        "relationship": "The retain handling flags in the subscription_options (e.g., 'retain as published') influence whether the retain flag in the PUBLISH message is preserved or reset by the broker when forwarding retained messages. For example, if 'retain as published' is disabled, the broker sets retain=0 after sending the retained message."
+    }
+]

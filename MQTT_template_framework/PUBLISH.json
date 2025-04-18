@@ -1,0 +1,13 @@
+{
+  "PUBLISH": {
+    "fixed_header": {
+      "packet_type": "publish"
+    },
+    "variable_header": {
+
+    },
+    "payload": {
+
+    }
+  }
+}

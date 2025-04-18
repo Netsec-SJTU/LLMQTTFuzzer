@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBREL",
+        "current_message_field": "packet_identifier",
+        "next_message": "PUBLISH",
+        "next_message_field": "packet_identifier",
+        "relationship": "The packet_identifier in PUBREL (part of QoS 2 flow) must match the packet_identifier in the original PUBLISH to ensure transaction integrity. If the next PUBLISH is a new message, its packet_identifier must differ to avoid conflicts until the PUBREL-PUBCOMP transaction completes."
+    }
+]

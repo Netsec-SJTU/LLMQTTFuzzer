@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "will_qos",
+        "next_message": "PUBLISH",
+        "next_message_field": "qos",
+        "relationship": "The will_qos in CONNECT determines the QoS level of the Will message sent as a PUBLISH message by the broker when the client disconnects unexpectedly. The QoS value set in will_qos directly defines the qos field in the PUBLISH message for the Will."
+    }
+]

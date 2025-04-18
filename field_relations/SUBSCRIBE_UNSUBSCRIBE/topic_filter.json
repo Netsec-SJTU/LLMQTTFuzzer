@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "SUBSCRIBE",
+        "current_message_field": "topic_filter",
+        "next_message": "UNSUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The topic_filter in SUBSCRIBE directly corresponds to the topic_filter in UNSUBSCRIBE, as unsubscribing requires the same topic filter used during subscription to remove the subscription."
+    }
+]

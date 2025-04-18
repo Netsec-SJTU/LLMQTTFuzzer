@@ -1,0 +1,11 @@
+{
+  "PUBREC": {
+    "fixed_header": {
+      "packet_type": "pubrec",
+      "flags": "0"
+    },
+    "variable_header": {
+
+    }
+  }
+}

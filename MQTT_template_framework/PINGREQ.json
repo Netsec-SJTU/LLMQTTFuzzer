@@ -1,0 +1,8 @@
+{
+  "PINGREQ": {
+    "fixed_header": {
+      "message_type": "pingreq",
+      "flags": "0"
+    }
+  }
+}

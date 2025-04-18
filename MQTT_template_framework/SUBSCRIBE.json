@@ -1,0 +1,14 @@
+{
+  "SUBSCRIBE": {
+    "fixed_header": {
+      "packet_type": "subscribe",
+      "flags": "2"
+    },
+    "variable_header": {
+
+    },
+    "payload": {
+      
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "CONNECT": {
+    "fixed_header": {
+      "message_type": "connect",
+      "flags": "0"
+    },
+    "variable_header": {
+    },
+    "payload": {
+      
+    }
+  }
+}

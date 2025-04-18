@@ -1,0 +1,14 @@
+{
+  "SUBACK":{  
+    "fixed_header": {
+      "packet_type": "suback",
+      "flags": "0"
+    },
+    "variable_header": {
+
+    },
+    "payload": {
+
+    }
+  }
+}

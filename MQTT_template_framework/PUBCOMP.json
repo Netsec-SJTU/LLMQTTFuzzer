@@ -1,0 +1,12 @@
+{
+  "PUBCOMP":
+  {  
+  "fixed_header": {
+    "control_packet_type": "pubcomp",
+    "flags": "0"
+  },
+  "variable_header": {
+
+  }
+  }
+}

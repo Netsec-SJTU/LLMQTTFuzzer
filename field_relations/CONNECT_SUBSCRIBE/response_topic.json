@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "response_topic",
+        "next_message": "SUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The response_topic in CONNECT specifies the topic where the client expects responses. To receive these responses, the client must include the same topic as the topic_filter in SUBSCRIBE, ensuring it subscribes to the designated response topic."
+    }
+]

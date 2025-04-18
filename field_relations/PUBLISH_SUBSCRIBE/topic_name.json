@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "topic_name",
+        "next_message": "SUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The topic_name in PUBLISH must align with the topic_filter in SUBSCRIBE for the subscriber to receive the message. The topic_filter may include wildcards to match multiple topics, while the topic_name is the specific topic being published."
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "message_expiry_interval",
+        "next_message": "PUBLISH",
+        "next_message_field": "message_expiry_interval",
+        "relationship": "The message_expiry_interval in CONNECT sets the default expiration time (in seconds) for messages sent by the client. If the PUBLISH message does not explicitly include a message_expiry_interval, the broker uses the value from CONNECT. If PUBLISH specifies its own message_expiry_interval, it overrides the CONNECT value."
+    }
+]

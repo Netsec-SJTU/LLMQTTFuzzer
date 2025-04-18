@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "payload_format_indicator",
+        "next_message": "PUBLISH",
+        "next_message_field": "payload_format_indicator",
+        "relationship": "The payload_format_indicator in CONNECT specifies the default format (UTF-8 or unspecified) for payloads in PUBLISH messages. If set in CONNECT, the PUBLISH's payload_format_indicator must either match this value or be omitted (implicitly inheriting the CONNECT value)."
+    }
+]

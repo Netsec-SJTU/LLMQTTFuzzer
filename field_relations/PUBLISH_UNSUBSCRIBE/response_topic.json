@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "response_topic",
+        "next_message": "UNSUBSCRIBE",
+        "next_message_field": "topic_filter",
+        "relationship": "The response_topic in PUBLISH may be used as the topic_filter in UNSUBSCRIBE, indicating the client is unsubscribing from the topic designated for responses. The value of response_topic directly determines the topic_filter to unsubscribe from."
+    }
+]

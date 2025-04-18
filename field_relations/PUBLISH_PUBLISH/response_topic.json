@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "response_topic",
+        "next_message": "PUBLISH",
+        "next_message_field": "topic_name",
+        "relationship": "The response_topic in the current PUBLISH message specifies the topic where the response should be sent. The next PUBLISH message (the response) must set its topic_name to the value of response_topic from the current message to ensure proper routing."
+    }
+]

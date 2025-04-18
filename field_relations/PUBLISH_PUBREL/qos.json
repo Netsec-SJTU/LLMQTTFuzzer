@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "qos",
+        "next_message": "PUBREL",
+        "next_message_field": "packet_identifier",
+        "relationship": "The 'qos' value in PUBLISH (when set to 2) requires the use of a packet identifier. This same packet identifier must be included in the subsequent PUBREL message to ensure reliable message delivery as part of the QoS 2 handshake."
+    }
+]

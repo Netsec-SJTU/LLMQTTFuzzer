@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "SUBSCRIBE",
+        "current_message_field": "topic_filter",
+        "next_message": "PUBLISH",
+        "next_message_field": "topic_name",
+        "relationship": "The topic_filter in SUBSCRIBE specifies the topic pattern the subscriber is interested in. The topic_name in PUBLISH must match this topic_filter for the message to be routed to the subscriber."
+    }
+]

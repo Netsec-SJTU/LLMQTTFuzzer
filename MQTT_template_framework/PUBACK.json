@@ -1,0 +1,12 @@
+{
+  "PUBACK":
+  {
+  "fixed_header": {
+    "packet_type": "puback",
+    "flags": "0"
+  },
+  "variable_header": {
+
+  }
+}
+}

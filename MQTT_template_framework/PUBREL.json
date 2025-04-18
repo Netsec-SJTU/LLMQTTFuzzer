@@ -1,0 +1,11 @@
+{
+  "PUBREL": {
+    "fixed_header": {
+      "packet_type": "PUBREL",
+      "flags": "2"
+    },
+    "variable_header": {
+
+    }
+  }
+}

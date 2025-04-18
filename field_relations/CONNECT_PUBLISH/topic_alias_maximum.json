@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "topic_alias_maximum",
+        "next_message": "PUBLISH",
+        "next_message_field": "topic_alias",
+        "relationship": "The topic_alias_maximum in CONNECT defines the maximum allowed value for topic_alias in PUBLISH. The topic_alias in PUBLISH must not exceed the negotiated maximum value set by topic_alias_maximum during the connection."
+    }
+]

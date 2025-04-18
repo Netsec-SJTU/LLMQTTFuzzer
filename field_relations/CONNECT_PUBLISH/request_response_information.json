@@ -1,0 +1,9 @@
+[
+    {
+        "current_message": "CONNECT",
+        "current_message_field": "request_response_information",
+        "next_message": "PUBLISH",
+        "next_message_field": "response_topic",
+        "relationship": "When 'request_response_information' is set to 1 in CONNECT, the server may provide a default response topic in CONNACK's Response Information. This response topic can then be used in PUBLISH's 'response_topic' field to indicate where responses should be sent."
+    }
+]

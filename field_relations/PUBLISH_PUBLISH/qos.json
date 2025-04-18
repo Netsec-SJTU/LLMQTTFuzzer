@@ -1,0 +1,16 @@
+[
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "qos",
+        "next_message": "PUBLISH",
+        "next_message_field": "dup",
+        "relationship": "The qos level (1 or 2) in the current PUBLISH message may lead to the dup flag being set to 1 in the next PUBLISH message if it is a retransmission of the original message. This is because QoS 1/2 requires reliable delivery, and retransmissions use the dup flag to indicate redundancy."
+    },
+    {
+        "current_message": "PUBLISH",
+        "current_message_field": "qos",
+        "next_message": "PUBLISH",
+        "next_message_field": "packet_identifier",
+        "relationship": "If the current PUBLISH message uses QoS 1 or 2, the next PUBLISH (if part of the same message flow) must include the same packet_identifier for acknowledgment tracking. However, this applies only to retransmissions, not new messages."
+    }
+]
